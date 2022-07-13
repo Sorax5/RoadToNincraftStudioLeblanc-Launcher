@@ -50,8 +50,8 @@ if(!isDev){
                 loggerAutoUpdaterSuccess.log('New update available', info.version)
                 
                 if(process.platform === 'darwin'){
-                    info.darwindownload = `https://github.com/Sorax5/RoadToNincraftStudioLeblanc-Launcher/releases/download/v${info.version}/RoadToNincraft-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
-                    showUpdateUI(info)
+                    info.darwindownload = `https://github.com/Studio-Leblanc-RoadToNincraft/RoadToNincraftStudioLebla
+                    showUpdateUI(info)nc-Launcher/releases/download/v${info.version}/RoadToNincraft-Launcher-setup-${info.version}${process.arch === 'arm64' ? '-arm64' : '-x64'}.dmg`
                 }
                 
                 populateSettingsUpdateInformation(info)
